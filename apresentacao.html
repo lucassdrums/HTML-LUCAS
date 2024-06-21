@@ -2,18 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apresentacao</title>
-</head>
-<body>
-    <h1>Apresentacao</h1>
+    <script>
+        
+        function emitirMensagem(){
+            document.write("<h1>Erro !</h1>");
+         
+        }  
+        function digitarLetra(event){
+            alert("Tecla digitada" + event.key);
 
-    <p><font size="100" color="blue">Ola, meu nome é Lucas e estou aqui para compartilhar a minha vida,
-        clique nos links que estão nas outras páginas.</font>
-    </p>
+        }
+
+        
+    </script>
+    <style>
+    p {
+            color: rgb(129, 77, 13);
+            font-size: 50px;
+        }
+
+        #descricao{
+            background-color: aqua;
+
+        }
+
+        .exemplo{
+
+            font-size: 70px;
+            color: yellow;
+        }
+
+</style>
+    </head>
+    <body>
+     
+
+        <p> Apresentacao de HTML</p>
+        <h1> Exemplo de HTML</h1>
+        <h2> Subtitulo</h2>
+        <h3 class="exemplo">Outro Exemplo </h3>
+        <h3 class="exemplo">Outro Exemplo </h3>
+        <div id="descricao" name="descricao"><p>Exemplo de HTML</p></div>
+        
+        <button id="botaoAqui"onclick="emitirMensagem();">Clique aqui!</button>
+
+        <textarea rows="10" cols="40" onkeypress="digitarLetra(event);" placeholder="Escreva">
+           
 
 
+        </textarea>
+
+
+     <!--font size="100" color="blue">Ola, meu nome é Lucas e estou aqui para compartilhar a minha vida,
+        clique nos links que estão nas outras páginas.</font>-->
         <button> ENTRAR</button>
-        <button><a href="index.html">VOLTAR</a></br></button>
-</body>
+        <button><a href="index.html" >VOLTAR</a></br></button>
+
+
+    <footer>
+
+
+
+    </footer>
+    </body>
 </html>
