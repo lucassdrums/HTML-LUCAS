@@ -14,10 +14,27 @@
         font-size: 32px;
     }
 
-    body{
-
-        background-color: rgb(127, 182, 0);
+    #barra{
+        background-color: gold;
+        height: 60px;
 
     }
+    #conteudo{
+        
+        background-color: yellowgreen;
+        height: 750px;
+        
 
-  
+    }
+    #rodape{
+        background-color: pink;
+
+        height: 60px;
+    }
+
+
+    #secao{
+        display: flex;
+        justify-content: center;
+
+    }
