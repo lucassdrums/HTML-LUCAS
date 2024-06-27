@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display inline-block</title>
+</head>
+<style>
+    p{
+        color:  rgba(255, 0, 0, 0.322);
+    }
+    p.ex1{display: none;}
+    p.ex2{display: inline;}
+    p.ex3{display: block;}
+    p.ex4{display: inline-block;}
+
+</style>
+
+<body>
+    <h2>display: inline:</h2> 
+    <div>
+         ipsum dolor sit amet, consectetur adipiscing elit. 
+        Nam interdum nulla non augue pharetra, id tristique est consectetur. 
+        Maecenas  dapibus massa.<p class="ex1">Hello World</p> Nunc diam mi, pulvinar sed massa vitae, facilisis vulputate quam. 
+        Morbi placerat non massa vitae semper. Phasellus eu dignissim diam. Quisque id nisi dolor. 
+        Sed egestas dui quis augue convallis egestas. Etiam tristique enim volutpat, venenatis mauris ut, dignissim magna.
+    </div>
+
+    <h2>display: block:</h2> 
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <p class="ex2">HELLO WORLD!</p> interdum nulla non augue pharetra, id tristique est consectetur. 
+        Maecenas et dapibus massa.  diam mi, pulvinar sed massa vitae, facilisis vulputate quam. 
+        Morbi placerat non massa vitae semper. Phasellus eu dignissim diam. Quisque id nisi dolor. 
+        Sed egestas dui quis augue convallis egestas. Etiam tristique enim volutpat, venenatis mauris ut, dignissim magna.
+    </div>
+
+    <h2>display: inline-block:</h2> 
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Nam interdum nulla non augue pharetra, id tristique est consectetur. 
+        Maecenas et dapibus massa. <p class="ex3">HELLO WORLD</p> diam mi, pulvinar sed massa vitae, facilisis vulputate quam. 
+        <p class="ex4">Hello WORLD</p> placerat non massa vitae semper. Phasellus eu dignissim diam. Quisque id nisi dolor. 
+        Sed egestas dui quis augue convallis egestas. Etiam tristique enim volutpat, venenatis mauris ut, dignissim magna.
+    </div>
+    
+</body>
+</html>
