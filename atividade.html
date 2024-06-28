@@ -1,73 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=
+
+"pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade</title>
-</head>
+<meta charset=
+
+"UTF-8">
+
+<meta name=
+
+"viewport"
+
+content=
+
+"width=device-width, initial-scale=1.0">
+
+<title>Formulario</title>
 <style>
-
-    #secao{
-
-    display: flex;
-        background-color: rgba(202, 200, 200, 0.925);
-        
-        
+    body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
     }
-    .A{
-        background-color: rgb(35, 187, 35);
-        padding: 20px 0px 0px;
-        border: 2x solid green;
-    
 
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
     }
-    .B{
 
-        background-color:  rgb(209, 207, 207);
-        border: 3px solid ;
+    table, th, td {
+    border: 1px solid rgb(187, 160, 8);
+    }
 
-    }   
-    .C{
+    th, td {
+     padding: 12px;
+    text-align: left;
+    }
 
-        background-color: rgba(207, 203, 203, 0.795);
+    th {
+    background-color: rgb(228, 195, 8);
 
     }
 
+    tr:nth-child(even) {
+    background-color: #e9e8e8d5;
+    }
+
+    tr:hover {
+    background-color: #036b26;
+}
 </style>
-
+</head>
 <body>
-    <table>
-        <div>
-        <tr class ="A">
-         <th>Nome</th>  
-         <th>Idade</th>
-         <th>Cidade</th>       
-         </tr>
-         <tr class="B">
-            <td>Ze Droguinha</td>  
-            <td>Ze Jacare</td>
-            <td>Ze Cachaca</td>       
-            </tr>
+<h1>Formulario</h1>
+<table>
 
-            <tr class="C">
-                <td>58</td>  
-                <td>59</td>
-                <td>60</td>       
-                </tr>
+    <tr>
 
-                <tr>
-                    <td>Rio Ganges</td>  
-                    <td>Pantano</td>
-                    <td>Barril City</td>       
-                    </tr>
+        <th>Nome</th>
 
+        <th>Idade</th>
 
+        <th>Cidade</th>
+    </tr>
+    <tr>
+    <td>Ze Droguinha</td>
+    <td>58</td>
+    <td>Cracolandia</td>
+    </tr>
 
+    <tr>
+    <td>Manguaça</td>
+    <td>59</td>
+    <td>Cachaça City</td>
+</tr>
 
+<tr>
 
-
-
-
-    </table>
+    <td>Calote</td>
+    <td>60</td>
+    <td>Bairro do Seu Madruga</td>
+</tr>
+</table>
 </body>
 </html>
